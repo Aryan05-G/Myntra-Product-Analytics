@@ -1,0 +1,12 @@
+# Large datasets
+data/*.csv
+Data/*.csv
+outputs/*.csv
+
+# R temporary files
+.RData
+.Rhistory
+.Rproj.user/
+
+# Power BI temporary files
+*.pbit
