@@ -64,17 +64,20 @@ Myntra Product Analytics/
 │
 ├── outputs/
 │   ├── Business_Insights.txt
-│   ├── Price_Distribution.png
-│   ├── Rating_Distribution.png
-│   └── Top_Sellers.png
+│   ├── Discount_Distribution.png
+│   ├── Discount_vs_Rating.png
 │
 ├── scripts/
 │   ├── Myntra_Product_Analytics.R
 │   └── Myntra_SQL_Queries.sql
 │
+├── .gitignore
 ├── Dashboard.png
-├── README.md
-└── .gitignore
+├── Myntra Product Analytics.pbix
+├── Price_Distribution.png
+├── Rating_Distribution.png
+├── Top_Sellers.png
+└── README.md
 ```
 ## Business Insights
 - Most products have ratings above 4.
