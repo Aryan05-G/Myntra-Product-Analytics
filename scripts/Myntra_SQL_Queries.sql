@@ -16,9 +16,11 @@ CREATE TABLE myntra (
 );
 
 SHOW TABLES;
+SET GLOBAL local_infile = 1;
+SHOW VARIABLES LIKE 'local_infile';
 
 LOAD DATA LOCAL INFILE
-'C:/Users/avant/OneDrive/Desktop/Myntra_Product_Analytics/outputs/Myntra_clean.csv'
+'C:/Users/aryan/Desktop/Myntra Product Analytics/outputs/Myntra_clean.csv'
 INTO TABLE myntra
 FIELDS TERMINATED BY ','
 OPTIONALLY ENCLOSED BY '"'
